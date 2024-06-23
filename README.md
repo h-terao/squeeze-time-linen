@@ -23,7 +23,7 @@ from pathlib import Path
 import pickle
 
 ckpt_path = Path("k400.pkl")
-variables pickle.loads(ckpt_path.read_bytes())
+variables = pickle.loads(ckpt_path.read_bytes())
 ```
 
 ## Inference
